@@ -74,7 +74,7 @@ Um terminal permite executar comandos no seu computador. Para Windows, o Git Bas
 
 ```javascript
 const readline = require('readline-sync');
-
+//lembrando que você pode trocar o nome de readline para input ex:const input = require('readline-sync');
 // Solicita um número ao usuário
 let numero = readline.question("Digite um número: ");
 

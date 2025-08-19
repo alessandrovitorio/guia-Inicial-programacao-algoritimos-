@@ -73,6 +73,9 @@ Um terminal permite executar comandos no seu computador. Para Windows, o Git Bas
 ### 2.2 Entrada de dados com readline-sync
 
 ```javascript
+ **instalação**
+npm i readline-sync
+
 const readline = require('readline-sync');
 //lembrando que você pode trocar o nome de readline para input ex:const input = require('readline-sync');
 // Solicita um número ao usuário
